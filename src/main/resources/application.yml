@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /api
+  error:
+    include-message: always
+    include-binding-errors: always
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/springwithreact
+    pool-size: 30
